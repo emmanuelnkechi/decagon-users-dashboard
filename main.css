@@ -480,19 +480,24 @@ span.download-text {
       .form-element {
         width: 70% !important;
       }
+      .form-elem{
+        display: block !important;
+    }
+    
+    .second-form-item{
+        margin-left: 0rem !important;
+        margin-top: 1rem;
+        width: 40%;
+    } 
+    .third-form-item{
+        margin-left: 0rem;
+    }
       p.welcome-paragraph {
         font-size: 1rem;
       }
       .users-button {
         gap: 1rem !important;
         margin-top: 1.5rem;
-      }
-      .second-form-item {
-        margin-left: 0.7rem;
-      }
-      .third-form-item {
-        margin-left: 0;
-        margin-top: 1rem;
       }
       .info {
         display: block;
@@ -511,19 +516,17 @@ span.download-text {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .third-form-item{
-        margin-top: 1rem !important;
-        margin-left: 0rem;
+    .form-elem{
+        display: block !important;
     }
-    div.first-item {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: start;
-        flex-basis: 50%;
-    }
+    
     .second-form-item{
-        margin-left: 0.5rem !important;
+        margin-left: 0rem !important;
+        margin-top: 1rem;
+        width: 30%;
+    } 
+    .third-form-item{
+        margin-left: 0rem;
     }
 }
 @media only screen and (min-width:769px){
