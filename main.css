@@ -512,8 +512,8 @@ span.download-text {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .third-form-item{
-        margin-top: 0 !important;
-        margin-left: 2rem;
+        margin-top: 1rem !important;
+        margin-left: 0rem;
     }
     div.first-item {
         display: flex;
@@ -521,6 +521,9 @@ span.download-text {
         align-items: center;
         justify-content: start;
         flex-basis: 50%;
+    }
+    .second-form-item{
+        margin-left: 0.5rem !important;
     }
 }
 @media only screen and (min-width:769px){
